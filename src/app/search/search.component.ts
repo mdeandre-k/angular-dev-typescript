@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
+  categories: string[] = [];
+
   constructor() { }
 
   ngOnInit() {
+    this.categories = ['Phones', 'TVs', 'Laptops']
   }
 
 }
